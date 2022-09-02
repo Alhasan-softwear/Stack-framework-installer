@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My custom Bulma website</title>
+<link rel="stylesheet" href="../stack-css/css/stack.min.css">
+  </head>
+  <body>
+i
+  </body>
+</html>
+<!-- 
+AddType application/x-httpd-php .stk
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.stk [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.stk -f
+RewriteRule ^ %{REQUEST_URI}.stk [NC,L] -->
